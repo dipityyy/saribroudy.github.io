@@ -205,7 +205,7 @@ p {
 }
 
 .email {
-  color: var(--primary-color);
+  color: var(--on-background-alt);
   font-size: 50px;
 }
 
