@@ -108,9 +108,11 @@ a:focus {
   box-shadow: var(--box-shadow);
 }
 
-img {
-  height: 300px;
-  width: 300px;
+.sari-img {
+position: relative;
+top: 40px;
+  
+  
 }
 
 .img-1{
@@ -146,6 +148,8 @@ button {
   font-size: 15px;
   outline: none;
 }
+
+
 
 button:disabled {
   opacity: 0.4;
@@ -211,6 +215,10 @@ p {
 
 .fab:hover {
   color: var(--on-background);
+}
+
+footer {
+display: block;
 }
 
 /* Dark Mode Toggle */
@@ -293,5 +301,15 @@ input:checked + .slider::before {
   font-size: 30px;
   margin-right: 5px;
 }
+
+
+/* Media Query: iPhone (Vertical) */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
 
 
